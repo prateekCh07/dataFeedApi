@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: DATA-FEED-API
+
+  profiles:
+    active: ${CONFIG-PROFILE:dev}
